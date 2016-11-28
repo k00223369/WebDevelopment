@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Page</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+    
+        <div id="container">
+            <div id="headerlogo">
+                    <img src="img/header.png" alt="Logo" />  
+            </div> 
+            
+            <nav>
+                <a href="index.html">HOME |</a>
+                <a href="page1.html">LADIES CLOTHING</a>
+                <a href="page2.html">| PILLOWS</a>
+                <a href="page3.html">| SHOES</a>
+                <a href="page4.html">| T-SHIRTS</a>
+            </nav>
+            
+            <form>
+                <input type="text" name="search" placeholder="Search..">
+            </form>
+            
+            
+                
+                <div id="map" style="width:100%;height:500px"></div>
+
+                <script>
+                    function myMap() {
+                    var mapCanvas = document.getElementById("map");
+                    var mapOptions = {
+                    center: new google.maps.LatLng(52.7, -8.86), 
+                        zoom: 10
+                        }
+                    var map = new google.maps.Map(mapCanvas, mapOptions);
+                        }
+                    </script>
+
+                    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+                
+                <div id="fb"> 
+                    <img src="img/FBLogo.png" alt="facebook" /> 
+                    <a href="https://www.facebook.com/freshhgarbage?fref=ts">
+                    </a>
+                </div>
+                <div id="insta">  
+                    <img src="img/Instagram.png" alt="instagram"/> 
+                    <a href="https://www.instagram.com/freshhgarbage/?hl=en">
+                    </a>
+                </div>
+            
+                
+            <h1>CONTACT</h1>   
+                
+            
+            <body>
+                Sinead Scullion <br>
+                Freelance designer/upcycling/fashion/costumes/custom pieces/interiors/art installations
+            </body>
+   
+            <form>   
+                <fieldset>
+                    FIRST NAME:<br>
+                    <input type="firstname" name="firstname"><br>
+                    LAST NAME:<br>
+                    <input type="lastname" name="lastname"><br>
+                    TELEPHONE:<br>
+                    <input type="tel" name="usrtel"><br>
+                    E-MAIL:<br>
+                    <input type="email" name="email"><br>
+                    <br>
+                    <textarea name="message" rows="10" cols="30">MESSAGE  
+                    </textarea><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+            
+            
+           
+               
+                    <footer>
+                        <p>&copy; 2016 CME Design</p>
+                    </footer>
+                     
+        </div>
+  
+</html>
