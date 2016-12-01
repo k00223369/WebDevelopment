@@ -25,6 +25,18 @@ div#insta {
     padding-left: 230px;
     padding-bottom: 60px;
     }
+nav a:visited, nav a:link {
+    color: purple;
+     text-decoration: none;
+    }
+
+nav a:hover {
+    color: whitesmoke;
+    }
+nav a.selected{
+    color: darkgoldenrod;
+    }
+
 
 a:link {
     text-decoration: none;
@@ -126,11 +138,10 @@ div#fresh2logo {
     }
 
 div#headerlogo {
-    height: 100%;
-    width: 100%;
-    padding-top: 140px;
+    padding-top: 100px;
+    padding-bottom: 40px;
     margin: -70PX;
-    align-content: center;
+    align-content: left;
     }
 
 
@@ -622,4 +633,10 @@ div#insta img {
 div#fb img {
     height: 40%;
     width: 40%;
+    }
+
+div#headerlogo img {
+    height: 40%;
+    width: 40%;
+    align-content: left;
     }
