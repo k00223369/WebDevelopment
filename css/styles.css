@@ -27,7 +27,7 @@ div#insta {
     }
 nav a:visited, nav a:link {
     color: purple;
-     text-decoration: none;
+    text-decoration: none;
     }
 
 nav a:hover {
@@ -41,7 +41,7 @@ nav a.selected{
 a:link {
     text-decoration: none;
     color: darkgoldenrod;
-    font-size: 30px;
+    font-size: 0.5em;
     }
 
 a:visited {
@@ -54,7 +54,7 @@ a:hover {
 
 a.one:link {
     color: white;
-    font-size: 20px;
+    font-size: 1em;
     }
 
 a.one:visited {
@@ -69,14 +69,23 @@ a.one:hover {
 div#sitemap {
     background-color: purple;
     color: white;
-    font-family: monospace;
-    font-size: 20px;
+    font-family: VarianeScript;
+    font-size: 0.5em;
     padding: 10px;
+    padding-bottom: 10px;
     align-content: center;
+    }
+
+h2 {
+    font-size: 2em;
+    padding-top: -60px;
+    padding-bottom: -60px;
     }
 
 tr.odd td {
     background-color: #7647a2;
+    padding-left: 20px;
+    padding-right: 40px;
     }
 
     
@@ -88,6 +97,10 @@ td:hover {
 td {
     border-collapse: collapse;
     text-decoration: underline;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
     }
 
 
@@ -124,7 +137,7 @@ nav {
     padding-top: 120px;
     text-align: left;
     font-family: VarianeScript;
-    font-size: 60px;
+    font-size: 1.5em;
     margin: -70PX;
     border-bottom: 4px solid purple;
     }
@@ -149,7 +162,7 @@ div#img1 {
     height: 35%;
     width: 25%;
     margin-top: 40px;
-    padding-top: 100px;
+    padding-top: 40px;
     float: left;
     padding-left: 100px;
     }
@@ -157,7 +170,7 @@ div#img1 {
 div#img2 {
     height: 30%;
     width: 25%;
-    padding-top: 100px;
+    padding-top: 40px;
     margin-top: 40px;
     float: left;
     padding-left: 20px;
@@ -167,7 +180,7 @@ div#img3 {
     height: 30%;
     width: 25%;
     margin-top: 40px;
-    padding-top: 100px;
+    padding-top: 40px;
     padding-right: 80px;
     float: left;
     padding-left: 20px;
